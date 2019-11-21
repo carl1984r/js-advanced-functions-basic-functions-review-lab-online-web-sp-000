@@ -21,4 +21,7 @@ let Calculator = {
   divide: function (n1, n2) { return n1 / n2}
 };
 
-function actionApplyer () {};
+function actionApplyer(start, functions) {
+  for(const fn of functions) { start = fn(start); }
+  return start;
+}
