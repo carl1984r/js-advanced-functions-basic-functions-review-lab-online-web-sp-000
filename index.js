@@ -13,3 +13,5 @@ function wrapAdjective(name='*') {
       return `You are ${name}${firstvar}${name}!`;
     }
   }
+
+let Calculator = {};
